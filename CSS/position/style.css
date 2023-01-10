@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    margin-left: 1%;
+}
+
+div {
+    border: 2px solid #0000e6;
+    background-color: #e6e6ff;
+    margin-bottom: 15px;
+}
+
+#div-static {
+    position: static;
+}
+
+#div-relative {
+    position: relative;
+    left: 75%;
+    width: 400px;
+    height: 200px;
+}
+
+#div-absolute {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 200px;
+    height: 100px;
+}
+
+#div-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    margin-bottom: 0;
+}
+
+#div-sticky {
+    position: sticky;
+    top: 0;
+}
+
+#div-none {
+    background-color: #ffffff;
+    height: 1000px;
+    padding: 300px;
+    border: none;
+} /*div apenas para deixar espaço em branco */

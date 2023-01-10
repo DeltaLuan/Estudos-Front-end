@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/html/img/favicon.ico">
+</head>
+
+<body style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+    <h1>Formulário em HTML</h1>
+    <p><strong>Obs: o forms não irá retornar alguma coisa, pois este arquivo é apenas uma demonstração</strong></p>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Formulário</legend>
+            <fieldset>
+                <legend>Inputs principais</legend>
+                <p><label for="nome">Nome:</label> <input type="text" id="nome" name="nome"></p>
+                <p><label for="email">Email:</label> <input type="email" id="email" name="email" placeholder="email@email.com"></p>
+                <p><label for="tel">Telefone:</label> <input type="tel" name="tel" id="tel" placeholder="(00) 0000-00000"></p>
+                <p>Selecione uma área de desenvolvimento web:
+                    <input type="radio" id="fend" name="fend"><label for="fend">Front-End</label>
+                    <input type="radio" id="bend" name="bend"><label for="bend">Back-End</label>
+                    <input type="radio" id="fs" name="fs"><label for="fs">Full-Stack</label>
+                </p>
+                <p>Selecione suas linguagens preferidas:
+                    <input type="checkbox" id="html" name="html"><label for="html">HTML</label>
+                    <input type="checkbox" id="css" name="css"><label for="css">CSS</label>
+                    <input type="checkbox" id="js" name="js"><label for="js">JavaScript</label>
+                    <input type="checkbox" id="php" name="php"><label for="php">PHP</label>
+                    <input type="checkbox" id="csh" name="csh"><label for="csh">C#</label>
+                </p>
+                <p>Escolha uma empresa:
+                    <select id="emp" name="emp">
+                        <option value="google">Google</option>
+                        <option value="apple">Apple</option>
+                        <option value="ibm">IBM</option>
+                        <option value="oracle">Oracle</option>
+                        <option value="canonical">Canonical</option>
+                    </select>
+                </p>
+                <p><input type="file" name="arquivo" id="arquivo"></p>
+                <p>Coisas a mais sobre você:<br>
+                    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                </p>
+            </fieldset><br>
+        
+            <fieldset>
+                <legend>Outros tipos de input</legend>
+                <p><label for="desliza">Pressione o ponto e "deslize":</label> <input type="range" name="desliza" id="desliza"></p>
+                <p><label for="data">Selecione a data:</label> <input type="date" name="data" id="data"></p>
+                <p><label for="cor">Escolha uma cor:</label> <input type="color" name="cor" id="cor"></p>
+            </fieldset><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+</body>
+</html>

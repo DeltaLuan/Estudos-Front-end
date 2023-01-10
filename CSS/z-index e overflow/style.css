@@ -1,0 +1,72 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    margin-left: 1%;
+}
+
+h3 {
+    margin-top: 35px;
+}
+
+.div-z-index {
+    position: relative;
+}
+
+#div-ex1 {
+    z-index: 1;
+    border: 2px solid #3333ff;
+    background-color: #e6e6ff;
+    height: 120px;
+}
+
+#div-ex2 {
+    position: absolute;
+    z-index: 2;
+    border: 2px solid #00cc00;
+    background-color: #80ff80;
+    width: 35%;
+    left: 735px;
+    top: -20px;
+    height: 105px;
+}
+
+#div-ex3 {
+    position: absolute;
+    z-index: 3;
+    border: 2px solid #e6e600;
+    background-color: #ffff66;
+    height: 70px;
+    width: 85%;
+    left: 60px;
+    top: 60px;
+}
+
+.div-overflow {
+    width: 1050px;
+    height: 70px;
+    border: 2px solid #0000b3;
+    background-color: #ccccff;
+}
+
+#div-visible {
+    overflow: visible;
+}
+
+#div-hidden {
+    overflow: hidden;
+}
+
+
+#div-scroll {
+    overflow: scroll;
+}
+
+#div-auto {
+    overflow: auto;
+}

@@ -1,0 +1,30 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    margin-left: 1%;
+}
+
+div, #span-ex{
+    border: 2px solid #00008b;
+    display: inline;
+}
+
+li {
+    color: #000080;
+    display: inline;
+}
+
+span{
+    border: none;
+    display: block;
+}
+
+#h4-none {
+    display: none;
+}

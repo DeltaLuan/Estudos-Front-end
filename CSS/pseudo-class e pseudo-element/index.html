@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo-class e Pseudo-element</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../assets/css/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Pseudo-class e Pseudo-element</h1>
+        <hr>
+    </header>
+
+    <main>
+        <h2>Pseudo-class</h2>
+        <p>São usadas para definir propriedades em um estado especifico do elemento.</p>
+        <p>Por exemplo, pode-se usar este recurso para estilizar um elemento quando se passa o mouse sobre ele, ou quando o usuário clica nele.</p>
+
+        <div class="div-ex-h" id="div-hov">
+            Passe o mouse aqui (:hover)
+        </div>
+
+        <h2>Pseudo-element</h2>
+        <p>Parecido com a pseudo-class, porém o pseudo-element lidará com partes específicas do elemento.</p>
+        <p>Por exemplo, podmeos usa-lo para estilizar a primeira letra/linha de um elemento, ou para inserir conteúdos antes e depois do elemento.</p>
+
+        <h3>::first-line</h3>
+        <p id="p-fline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur risus quis massa semper, non ornare sapien pellentesque. Nullam eu neque eu augue convallis varius sed eu mi. Sed urna sapien, ultricies in interdum in, tincidunt condimentum tortor. Curabitur auctor mi tincidunt tellus venenatis ultrices. Donec consequat quam sit amet purus tincidunt, non posuere odio fringilla. Duis ante lacus, interdum accumsan efficitur id, vehicula vel mauris. Vivamus facilisis rhoncus suscipit. Curabitur ac felis ut augue eleifend tempor. In hac habitasse platea dictumst. Maecenas aliquam, odio sed sagittis pellentesque, nunc lorem.</p>
+
+        <h3>::first-letter</h3>
+        <p id="p-flett">Neste parágrafo, a primeira letra está estilizada de forma diferente.</p>
+
+        <h3>::before e ::after</h3>
+        <p class="p-ex" id="p-be">Before</h4>
+        <p class="p-ex" id="p-af">After</h4>
+
+        <h3>::marker</h3>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ul>
+        <ol>
+            <li>Windows</li>
+            <li>MacOS</li>
+            <li>Linux</li>
+        </ol>
+
+        <h3>::selection</h3>
+        <p id="p-sel">Selecione aqui</p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Display</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../assets/css/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Display</h1>
+        <hr>
+    </header>
+
+    <main>
+        <h2>Introdução</h2>
+
+        <h3>Elementos block-level</h3>
+        <p>São os elementos que começam em uma nova linha e pegam toda a largura disponível.</p>
+        <div>O elemento &lt;div&gt; é um elemento block-level</div>
+
+        <h3>Elementos inline</h3>
+        <p>São os elementos que não começam uma nova linha e pegam apenas a largura necessária.</p>
+        <p>Este elemento <span id="span-ex">&lt;span&gt; está embutido dentro de um parágrafo</span>, portanto é um elemento inline </p>
+
+        <h2>Propriedade <em>display</em></h2>
+        <p>Estando introduzido no assunto, a propriedade display altera a forma que o elemento é exibido. <br>
+        Exemplificando, podemos alterar um elemento block-level para que este seja inline, assim como também podemos fazer o inverso</p>
+
+        <h3>Display: inline</h3>
+        <p>Uma lista inline:
+            <ul>
+                <li>Café</li>
+                <li>Chá</li>
+                <li>Suco</li>
+            </ul>
+        </p>
+
+        <h3>Display: block</h3>
+        <span>Este span</span><span>com o display: block</span><span>fica com uma quebra de linha em casa &lt;span&gt;</span>
+
+        <h3>Display: none</h3>
+        <h4>Este é um h4 visível</h4>
+        <h4 id="h4-none">Este é um h4 invisível</h4>
+        <p>O h4 com display: none; além de ficar invisível, também não ocupa nenhum espaço</p>
+    </main>
+</body>
+</html>

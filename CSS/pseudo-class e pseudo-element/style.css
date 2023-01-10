@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    margin-left: 1%;
+}
+
+.div-ex-h {
+    border: 2px solid #0000ff;
+    border-radius: 2px;
+    width: 350px;
+    height: 50px;
+    margin: 20px;
+    padding: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-hov:hover {
+    background-color: #ccccff;
+}
+
+#p-fline::first-line {
+    color: #ff0000;
+}
+
+#p-flett::first-letter {
+    color: #0000ff;
+    font-size: xx-large;
+}
+
+.p-ex {
+    font-size: medium;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#p-be::before, #p-af::after {
+    content: url(img/bola.png)
+}
+
+::marker {
+    color: #008000;
+    font-size: 20px;
+}
+
+#p-sel::selection {
+    color: #0000ff;
+    background: #33ff33;
+}

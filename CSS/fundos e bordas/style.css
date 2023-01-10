@@ -1,0 +1,65 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    margin-left: 1%;
+}
+
+#bg-cor {
+    color: #ffffff;
+    background-color: #4d4dff;
+}
+
+#bg-img {
+    font-size: 20px;
+    background-image: url(img/background.jpg);
+}
+
+#dotted {
+    border-style: dotted;
+}
+
+#dashed {
+    border-style: dashed;
+}
+
+#solid {
+    border-style: solid;
+}
+
+#double {
+    border-style: double;
+}
+
+#groove {
+    border-style: groove;
+}
+
+#ridge {
+    border-style: ridge;
+}
+
+#inset {
+    border-style: inset;
+}
+
+#outset {
+    border-style: outset;
+}
+
+#none {
+    border-style: none;
+}
+
+#hidden {
+    border-style: hidden;
+}
+
+#misturado {
+    border-style: solid hidden double dotted;
+}

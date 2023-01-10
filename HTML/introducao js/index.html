@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Introdução a JS</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/html/img/favicon.ico">
+
+    <style>
+    </style>
+</head>
+
+<body style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+    <h1>Introdução a JavaScript em um documento HTML</h1>
+    <p>Com JS, é possível tornar as páginas HTML mais dinâmicas/interativas.</p>
+    <p><strong>Obs: este arquivo é apenas uma introdução a JS. Depois deste arquivo ser publicado, será criada uma pasta específica para esta linguagem, conforme o decorrer de meus estudos</strong></p>
+    <hr>
+
+    <p>O texto a seguir foi escrito utilizando o metódo <code>document.getElementById()</code>:</p>
+    <p id="mudaTexto"></p>
+
+    <p id="mudaEstilo">Com JS, também é possível mudar os estilos de um elemento: <button type="button" onclick="funcaoJS()">Clique aqui</button></p>
+
+    <p>Também é possível mudar atributos de elementos, como por exemplo o atributo <code>src</code>de uma imagem:</p>
+
+    <img id="imagem" src="img/sorriso.png" style="width: 200px; height: 200px;">
+    <p><button type="button" onclick="estado(0)">Sorriso normal</button>
+    <button type="button" onclick="estado(1)">Sorriso com óculos</button></p>
+
+    <script>
+        document.getElementById("mudaTexto").innerHTML = "Hello World, JS é interessante!";
+
+        function funcaoJS() {
+            document.getElementById("mudaEstilo").style.fontSize = "30px";
+            document.getElementById("mudaEstilo").style.color = "blue";
+            document.getElementById("mudaEstilo").style.backgroundColor = "lightsteelblue";
+        }
+
+        function estado(e) {
+            var i;
+            if (e == 0) {
+                i = "img/sorriso.png"
+            } else {
+                i = "img/sorriso_oculos.png"
+            }
+            document.getElementById("imagem").src = i;
+        }
+    </script>
+</body>
+</html>

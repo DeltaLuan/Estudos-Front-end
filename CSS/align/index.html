@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Align</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../assets/css/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Alinhamento (align)</h1>
+        <hr>
+    </header>
+
+    <main>
+        <h2>Elementos centralizados (margin: auto)</h2>
+        <div id="element-cent">Este elemento é centralizado</div>
+
+        <h2>Texto centralizado (text-align: center)</h2>
+        <div id="text-cent">Texto centralizado</div>
+
+        <h2>Imagem no centro (margin-left/right: auto; display: block)</h2>
+        <img id="img-cent" src="img/ex-center.jpg" alt="Codificação"><!-- https://pixabay.com/pt/photos/c%c3%b3digo-codifica%c3%a7%c3%a3o-computador-dados-1839406/ -->
+
+        <h2>Alinhamento direita e esquerda (position: absolute)</h2>
+        <div class="div-align">
+        <div id="div-r">Direita</div>
+        <div id="div-l">Esquerda</div>
+        </div>
+
+        <h2>Clearfix</h2>
+        <!-- imagem de exemplo: https://pixabay.com/pt/vectors/pinguim-p%c3%a1ssaro-animal-42936/ -->
+        <div>Sem clearfix <img class="img-cl"src="img/ex-clearfix.png" alt="Tux"></div>
+        <div id="div-cl">Com clearfix <img class="img-cl" src="img/ex-clearfix.png" alt="Tux"></div>
+
+        <h2>Centralizar verticalmente (padding)</h2>
+        <div class="div-cent">Elemento centralizado verticalmente</div>
+        <div class="div-cent" id="cent-pad">Elemento centralizado verticalmente e horizontalmente (text-align: center)</div>
+
+        <h2>Centralizar verticalmente (flexbox)</h2>
+        <div class="div-cent" id="cent-flex">Elemento centralizado através de flexbox</div>
+    </main>
+</body>
+</html>

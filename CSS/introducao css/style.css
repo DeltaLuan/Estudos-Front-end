@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #fcf5e9;
+}
+
+#p-header {
+    margin: auto;
+    max-width: 43%;
+    border-bottom: 3px solid #6c9dc6;
+    padding-bottom: 2px;
+    font: italic;
+}
+
+#p-ex {
+    margin: auto;
+    max-width: 50%;
+    color: #ffffff;
+    background-color: #7eaacd;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 5px solid #315d81;
+}
+
+#ex_background {
+    height: 70px;
+    margin: 15px 50px 0 50px;
+    background-image: url(img/bg_img.jpg);
+    font: 30px monospace;
+    text-align: left;
+    color: #ffffff;
+    border: 5px solid #000000;
+    border-radius: 15px;
+}
+
+#obs {
+    font: 20px;
+    font-weight: 900;
+}
