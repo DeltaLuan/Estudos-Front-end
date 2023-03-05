@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis</title>
+</head>
+<body>
+    <h1>Introdução variáveis</h1>
+    <hr>
+
+    <p>Para declarar uma variável em JavaScript, nós utilizamos o <code>let</code> e/ou também o <code>var</code> - embora que var seja mais "antigo"<br>
+        Exemplo: <br>
+            <code>
+                let name = "João"; <br>
+                alert('name'); //irá dar um alerta com o valor que a variável recebeu
+            </code>
+    </p>
+
+    <p>Também podemos declarar uma variável como o valor de outra variável:<br>
+        Exemplo:<br>
+            <code>
+                let name = "João";<br>
+                let admin;<br>
+
+                admin = name;<br>
+
+                alert('admin'); //irá mostrar o valor da varíavel admin, que por sua vez tem como valor a varíavel name
+            </code>
+    </p>
+
+    <p>Por fim, existe o tipo de varíavel <code>const</code>, que recebe um valor que é imutável - ou seja, não se alterará posteriormente.<br>
+        Exemplo:<br>
+            <code>
+                const BIRTHDAY = '30.07.1975'; //a data de aniversário é um valor constante, ou seja, que nunca muda, logo seu tipo de varíavel é const
+            </code>
+    </p>
+
+    <script>
+        let name = "João";
+        let admin;
+
+        admin = name;
+
+        alert(admin + ', variável cujo valor é outra variável');
+    </script>
+</body>
+</html>
